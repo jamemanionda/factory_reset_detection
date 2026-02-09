@@ -54,6 +54,11 @@ The tool automatically extracts timestamps, converts timezones (UTC ↔ KST), an
 - Item-level show/hide controls
 - Summary results view
 
+
+<img width="2000" height="1029" alt="image" src="https://github.com/user-attachments/assets/aaaa650f-588e-422e-b39a-c60fbf6949b5" />
+
+
+
 ## Requirements
 
 ### System Requirements
@@ -222,21 +227,7 @@ factory_reset_setting/
 - A: Use the timezone toggle button to switch between KST and UTC
 - Original timestamps are always preserved
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Reporting Issues
-- Use the GitHub Issues page to report bugs
-- Include crash logs if available (`crash_dump.log`)
-- Provide steps to reproduce the issue
-
-## Security & Privacy
-
-- All analysis is performed locally
-- No network connection required
-- Analysis data is stored only on your machine
-- No data is transmitted to external servers
 
 
 
