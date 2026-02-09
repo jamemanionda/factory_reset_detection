@@ -77,7 +77,7 @@ pyaxmlparser >= 0.3.0
 
 ### 1. Clone the Repository
 ```bash
-git clone [<repository-url>](https://github.com/jamemanionda/factory_reset_detection)
+git clone https://github.com/jamemanionda/factory_reset_detection
 cd factory_reset_setting
 ```
 
