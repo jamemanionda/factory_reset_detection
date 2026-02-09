@@ -77,7 +77,7 @@ pyaxmlparser >= 0.3.0
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/jamemanionda/factory_reset_detection)
 cd factory_reset_setting
 ```
 
@@ -177,56 +177,12 @@ Choose which artifacts to analyze:
 
 ```
 factory_reset_setting/
-├── factory4.py              # Main GUI application
+├── main.py              # Main GUI application
 ├── resetfactory.py          # ADB utility functions
 ├── saved_results/           # Saved analysis results (JSON)
-├── logs/                     # Log files
 ├── README.md                 # This file
 └── requirements.txt         # Python package dependencies
 ```
-
-### Key Classes
-
-- **`FactoryResetGUI`**: Main GUI window class
-- **`WorkerThread`**: Background thread for analysis tasks
-- **`DeepSearchThread`**: Background thread for deep search
-- **`CopyableMessageBox`**: Custom message box with copy functionality
-
-## Troubleshooting
-
-### Application Crashes
-- Crash dumps are saved to `crash_dump.log`
-- Signal blocking mechanisms are implemented to prevent infinite recursion
-- Check the log file for detailed error information
-
-### ADB Connection Issues
-- Verify device connection: `adb devices`
-- Ensure USB debugging is enabled on the device
-- Check that ADB path is correctly configured
-- Verify device drivers are installed
-
-### Encoding Errors
-- The tool automatically tries multiple encodings (UTF-8, CP949, Latin-1, UTF-16, etc.)
-- If errors persist, check the file format and encoding
-
-### Performance Issues
-- Large files may take time to analyze
-- Deep search runs in the background to prevent UI freezing
-- Consider filtering artifacts if analysis is too slow
-
-### Common Issues
-
-**Q: The application won't start**
-- A: Ensure all dependencies are installed: `pip install -r requirements.txt`
-
-**Q: No results found**
-- A: Verify that the selected artifacts exist in your data source
-- Check that the correct source type is selected (ZIP/Folder/ADB)
-
-**Q: Timezone conversion is incorrect**
-- A: Use the timezone toggle button to switch between KST and UTC
-- Original timestamps are always preserved
-
 
 
 
