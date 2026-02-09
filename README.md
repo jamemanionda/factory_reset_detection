@@ -78,7 +78,7 @@ pyaxmlparser >= 0.3.0
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/jamemanionda/factory_reset_detection
-cd factory_reset_setting
+cd factory_reset_detection
 ```
 
 ### 2. Create Virtual Environment (Recommended)
